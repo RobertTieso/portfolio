@@ -1,0 +1,121 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+
+img {
+  display: block;
+   margin-left: auto 0;
+   margin-right: auto 0;
+   width: 1400px;
+}
+
+
+
+
+#contact {width:100%; height:100%; margin 0 auto; background: #2d21d9; }
+
+.container {width:960px; height:1200px; margin: 0 auto; padding: 50px 0;}
+
+#contact .container form input,
+#contact .container form textarea {
+	width:97.4%;
+	height:30px;
+	padding:5px 10px;
+	font-size: 12px;
+	color:#999;
+	letter-spacing:1px;
+	background: #FFF;
+	border:2px solid #FFF;
+	margin-bottom:25px;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+	border:2px solid #dd4545;
+	color:#0c042f;}
+
+#contact .container form textarea {
+	height:150px;}
+
+#contact .container form .submit {
+	width:100%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:#46dd44;
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#236670;
+	border:2px solid #7e4343;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .container form .submit:hover {
+	color:#3365ed;
+	border:2px solid #832727;
+	background: #08e61c;
+	cursor:pointer;}
+
+#contact .container form .required {
+	color:rgb(75,88,214);}
+
+
+  .parallax {
+      background-color: white;
+      background-image: url("Images/SaintPaul3.jpg");
+      height: 100%;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /*following just for demo purposes to add height and top padding*/
+      height:300vh;
+      padding-top:50vh;
+  }
+  .parallax-curtain{
+    height:55vh;
+    background:rgb(255, 159, 96, 0.8);
+  }
+
+
+
+
+h1{
+  text-align: center;
+color: #f9bd0a;
+font-size: 5em;
+font-family: 'Pacifico', cursive;
+}
+h2 {
+text-align: center;
+color:#f9bd0a;
+font-size: 2em;
+font-family: 'Dancing Script', cursive;
+}
+body {
+  background-color: #5fa2ff;
+  color: #09569f;
+  }
+
+  #body {
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  }
